@@ -22,6 +22,20 @@
             font-family: 'Indie Flower', cursive;
             text-decoration: none;
         }
+
+        .linkedin {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .linkedin:hover {
+            color: white;
+            text-decoration: underline;
+            cursor:pointer;
+        }
+
+
     </style>
     <title>Reading Program For Kids</title>
 </head>
@@ -50,9 +64,10 @@
                        </a>
                     </li>
                     <li class="nav-item m-1">
-                        <a href="https://intertype.infusionsoft.com/app/manageCart/addProduct?productId=234">
-                        <button type="button" class="btn btn-outline-light buy-btn">Buy Now</button>
-                        </a>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="2PN835KVRYYZN">
+                            <button class="btn btn-outline-light buy-btn">Buy Now</button>
+                        </form>
                     </li>
                 </ul>
             </div>
@@ -62,7 +77,7 @@
 
    <footer class="footer bg-blue text-light">
         <div class="row justify-content-center">
-            <small>Site created by Shaun Simons</small>
+            <small>Site created by <a class="linkedin" href="https://www.linkedin.com/in/shaun-simons/">Shaun Simons</a></small>
         </div>
     </footer>
         <!-- bootstrap extras -->

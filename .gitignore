@@ -5,6 +5,8 @@
 __pycache__/
 local_settings.py
 
+main/__pychache__/
+
 .env
 
 /main/static/main/*.mp4

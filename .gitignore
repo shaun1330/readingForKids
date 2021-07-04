@@ -14,5 +14,3 @@ main/__pychache__/
 .idea
 
 venv/
-
-db.sqlite3
